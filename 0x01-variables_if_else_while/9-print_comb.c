@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main -Entry point
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -10,11 +11,16 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		putchar('0' + i);
-		putchar(',');
-		putchar(' ');
+		if (i < 9)
+		{
+			putchar('0' + i);
+			putchar(',');
+			putchar(' ');
+		}
+		else
+		{
+			putchar('0' + 1);
+		}
 	}
-	putchar('\n');
-
 	return (0);
 }
