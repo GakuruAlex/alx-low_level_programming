@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include "main.h"
 /**
  * _puts - Prints a string
@@ -8,8 +9,8 @@ void _puts(char *str)
 {
 	while (*str != '\0')
 	{
-		_putchar(*str);
+		printf("%c",*str);
 		str++;
 	}
-	_putchar('\n');
+	printf('\n');
 }
