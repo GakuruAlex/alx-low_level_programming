@@ -12,7 +12,7 @@ void print_rev(char *s)
 		for (j = strlen(s); j >= 0; j--)
 		{
 		if (s[j] != '\0')
-			printf("%c", s[j]);
+			printf("%c\n", s[j]);
 		}
 	}
 }
