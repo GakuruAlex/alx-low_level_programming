@@ -1,12 +1,14 @@
 #include "main.h"
 /**
- * _strncat - Concatenates two strings
+ *_strncat - concatanates two strings
  *
  * @dest: - First string
  *
  * @src: - String to concatonate
  *
  * @n: Size of string
+ *
+ * Return: Always a string
  */
 char *_strncat(char *dest, const char *src, int n)
 {
