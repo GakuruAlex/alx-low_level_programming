@@ -1,6 +1,7 @@
 #include<stdlib.h>
 #include "main.h"
-/** create_array - Creates an array nad fills it with given character
+/**
+ * create_array - Creates an array nad fills it with given character
  * @size: -Size of array
  *
  * @c: - Character to be filled
