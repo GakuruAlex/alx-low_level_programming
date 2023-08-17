@@ -13,13 +13,12 @@ void print_all(const char * const format, ...)
 	int i;
 	float f;
 	char *s;
+	int char_count = 0;
+	int separator_needed = 0;
 
 	va_list args;
+
 	va_start(args, format);
-
- 	int char_count = 0;
- 	int separator_needed = 0; 
-
  	while ((c = format[char_count]) != '\0')
 	{
 	switch (c)
@@ -69,9 +68,9 @@ void print_all(const char * const format, ...)
 		char_count++;
 	}
 
+
 	printf("\n");
 	va_end(args);
 }
 
 
-}
