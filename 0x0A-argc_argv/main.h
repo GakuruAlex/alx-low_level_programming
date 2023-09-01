@@ -4,6 +4,7 @@
  * C Header files 
  */
 #include<stdio.h>
+#include<stdlib.h>
 /**
  * function prototypes
  */
